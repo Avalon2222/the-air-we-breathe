@@ -56,7 +56,7 @@ Buka `http://localhost:8501`. Data diambil saat aplikasi dibuka dan disimpan 30 
 sidebar memaksa pengambilan baru. Jika jaringan tidak tersedia, aplikasi otomatis memakai data contoh di
 `data/sample/` dan menampilkan spanduk peringatan. Mode offline juga bisa dipilih langsung di sidebar.
 
-Pengujian: `python -m pytest tests/ -v` (62 tes, tanpa jaringan). Perbarui data contoh:
+Pengujian: `python -m pytest tests/ -v` (62 tes, tanpa jaringan; otomatis jalan di GitHub Actions setiap push dan pull request). Perbarui data contoh:
 `python scripts/perbarui_sample.py`.
 
 **Stasiun sensor OpenAQ (opsional).** Daftar kunci API gratis di [explore.openaq.org](https://explore.openaq.org/),
