@@ -1,0 +1,9 @@
+{
+  "diambil": "2026-11-01 10:59 UTC",
+  "hari_riwayat": 60,
+  "hari_prakiraan": 2,
+  "jumlah_titik": 51,
+  "jumlah_baris": 75888,
+  "sumber": "Open-Meteo Air Quality (CAMS) + Open-Meteo Forecast",
+  "catatan": "Data contoh untuk mode offline dan pengujian. Perbarui dengan scripts/perbarui_sample.py."
+}
