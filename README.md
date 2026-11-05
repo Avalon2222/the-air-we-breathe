@@ -5,9 +5,20 @@
 > **ISPU** dan **US AQI**, pola jam dan cuaca, serta prakiraan besok dari model statistik yang diuji secara jujur
 > melawan tebakan paling malas. Dibangun dengan Python, pandas, scikit-learn, Streamlit, Folium, dan Plotly.
 
-*A live PM2.5 map of Greater Jakarta from free Open-Meteo (CAMS) data, scored on both Indonesia's ISPU and the US AQI,
-with hourly and weather patterns and a tomorrow forecast from a small ML model that is backtested against persistence
-and says so when it loses. Falls back to a cached sample dataset when offline.*
+## 🇬🇧 In English
+
+**Every breath is a data point.** A live PM2.5 map of 51 points across Greater Jakarta (Jabodetabek), scored on both Indonesia's ISPU and the US AQI, with hourly and weather patterns and a tomorrow forecast from a small machine-learning model that is backtested against the laziest possible guess, and admits it when it loses.
+
+- **Map** air quality now, with forecast layers and optional OpenAQ sensor stations.
+- **Forecast** tomorrow with a persistence + correction model (Ridge or Gradient Boosting, picked automatically).
+- **Backtest** 21 days of walk-forward predictions against persistence and the CAMS forecast.
+- **Explore** hour-by-day heatmaps and how wind, rain, and boundary layer height drive PM2.5.
+
+**Built with:** Python, pandas, scikit-learn, Folium, Plotly, Streamlit  
+**Data:** Open-Meteo Air Quality API (Copernicus CAMS model), optional OpenAQ  
+**Engineering:** pytest suite with CI on GitHub Actions, offline fallback dataset, honest model evaluation
+
+*The rest of this README is in Indonesian.*
 
 **🚀 Coba langsung di browser:** [the-air-we-breathe.streamlit.app](https://the-air-we-breathe.streamlit.app)
 
