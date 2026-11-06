@@ -1,5 +1,7 @@
 # 🌫️ The Air We Breathe
 
+[![Tes](https://github.com/Avalon2222/the-air-we-breathe/actions/workflows/tes.yml/badge.svg)](https://github.com/Avalon2222/the-air-we-breathe/actions/workflows/tes.yml) [![Python 3.12](https://img.shields.io/badge/python-3.12-blue.svg)](https://www.python.org/) [![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE) [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://the-air-we-breathe.streamlit.app)
+
 > **Every breath is a data point.**
 > Peta langsung PM2.5 di 51 titik Jabodetabek dari umpan publik **Open-Meteo** (model CAMS Copernicus), dengan indeks
 > **ISPU** dan **US AQI**, pola jam dan cuaca, serta prakiraan besok dari model statistik yang diuji secara jujur
